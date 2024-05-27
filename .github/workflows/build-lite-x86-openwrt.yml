@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Build lede X86 OpenWrt
+name: Build lite X86 OpenWrt
 
 on:
   repository_dispatch:
@@ -20,16 +20,16 @@ on:
         required: false
         default: 'false'
   schedule:
-    - cron: 0 19 * * *
+    - cron: 0 2 * * 0
   push:
 
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
-  FEEDS_CONF: X86/lede/feeds.conf.default
-  CONFIG_FILE: X86/lede/.config
-  DIY_P1_SH: X86/lede/diy-part1.sh
-  DIY_P2_SH: X86/lede/diy-part2.sh
+  FEEDS_CONF: X86/lite/feeds.conf.default
+  CONFIG_FILE: X86/lite/.config
+  DIY_P1_SH: X86/lite/diy-part1.sh
+  DIY_P2_SH: X86/lite/diy-part2.sh
   WORK_DIR: X86_openwrt
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: true
