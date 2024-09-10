@@ -24,8 +24,8 @@ on:
   push:
 
 env:
-  REPO_URL: https://github.com/coolsnowwolf/lede
-  REPO_BRANCH: 179329c
+  REPO_URL: https://github.com/mugenjie/lede/tree/179329cbbaec92a26a0ec95ca0a885828156fac8
+  REPO_BRANCH: master
   FEEDS_CONF: X86/lite/feeds.conf.default
   CONFIG_FILE: X86/lite/.config
   DIY_P1_SH: X86/lite/diy-part1.sh
