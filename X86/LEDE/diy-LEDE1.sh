@@ -20,4 +20,5 @@
 #echo 'src-git clone https://github.com/sirpdboy/luci-app-ddns-go.git' >>feeds.conf.default
 #echo 'src-git_sparse_clone master https://github.com/vernesong/OpenClash luci-app-openclash' >>feeds.conf.default
 #echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages' >>feeds.conf.default
-echo 'src-git small https://github.com/kenzok8/small' >>feeds.conf.default
+#echo 'src-git small https://github.com/kenzok8/small' >>feeds.conf.default
+echo 'src-git smpackage https://github.com/kenzok8/small-package' >>feeds.conf.default
