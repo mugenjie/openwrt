@@ -3,7 +3,7 @@
 
 ImmortalWrt:
 
-HomeProxy/KMS/DDNS-Go/MihomoTProxy.
+/KMS/DDNS-Go/OpenClash/MihomoTProxy.
 
 LEAN:
 
