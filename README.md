@@ -3,11 +3,11 @@
 
 ImmortalWrt:
 
-/KMS/DDNS-Go/OpenClash/MihomoTProxy.
+HomeProxy/OpenClash//KMS/DDNS-Go/MihomoTProxy.
 
 LEAN:
 
-HomeProxy/SSRPLUS+/OpenClash/AdBlock-Fast/KMS/DDNS-Go/PASSWALL2/上网时间控制/网络带宽监视器（nlbwmon）.
+OpenClash/KMS/DDNS-Go/PASSWALL2/上网时间控制/UPnP.
 
 ### 参考
 
