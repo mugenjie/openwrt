@@ -16,5 +16,4 @@
 # Add a feed source
 #echo 'src-git helloworld https://github.com/fw876/helloworld.git' >>feeds.conf.default
 echo 'src-git clone https://github.com/sirpdboy/luci-app-ddns-go.git' >>feeds.conf.default
-echo 'src-git_sparse_clone master https://github.com/vernesong/OpenClash luci-app-openclash' >>feeds.conf.default
 echo "src-git mihomo https://github.com/morytyann/OpenWrt-mihomo.git;main" >> "feeds.conf.default"
