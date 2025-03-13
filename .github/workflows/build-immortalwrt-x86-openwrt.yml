@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Build immortalwrt X86 OpenWrt
+name: Build immortalwrt X86 2305
 
 on:
   repository_dispatch:
@@ -25,7 +25,7 @@ on:
 
 env:
   REPO_URL: https://github.com/immortalwrt/immortalwrt
-  REPO_BRANCH: openwrt-24.10
+  REPO_BRANCH: openwrt-23.05
   FEEDS_CONF: X86/immortalwrt/feeds.conf.default
   CONFIG_FILE: X86/immortalwrt/ImmortalWrt.config
   DIY_P1_SH: X86/immortalwrt/diy-immortalwrt1.sh
