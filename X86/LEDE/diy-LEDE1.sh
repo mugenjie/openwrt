@@ -15,7 +15,7 @@
 
 # Add a feed source
 #echo 'src-git helloworld https://github.com/fw876/helloworld.git' >>feeds.conf.default
-#echo 'src-git passwall_package https://github.com/xiaorouji/openwrt-passwall-packages' >>feeds.conf.default
-#echo 'src-git passwall2 https://github.com/xiaorouji/openwrt-passwall2.git' >>feeds.conf.default
-#echo 'src-git clone https://github.com/sirpdboy/luci-app-ddns-go.git' >>feeds.conf.default
-#echo 'src-git_sparse_clone master https://github.com/vernesong/OpenClash luci-app-openclash' >>feeds.conf.default
+echo 'src-git passwall_package https://github.com/xiaorouji/openwrt-passwall-packages' >>feeds.conf.default
+echo 'src-git passwall2 https://github.com/xiaorouji/openwrt-passwall2.git' >>feeds.conf.default
+echo 'src-git clone https://github.com/sirpdboy/luci-app-ddns-go.git' >>feeds.conf.default
+echo 'src-git_sparse_clone master https://github.com/vernesong/OpenClash luci-app-openclash' >>feeds.conf.default
